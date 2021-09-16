@@ -11,7 +11,7 @@ on:
       platform:
         description: 'Comma-separated list of platforms'
         required: true
-        default: 'linux/arm/v7,linux/arm64,linux/386/linux/amd64'
+        default: 'linux/arm/v7,linux/arm64,linux/386,linux/amd64'
 
 jobs:
   build:

@@ -5,8 +5,9 @@ on:
   pull_request:
   push:
     branches:
-      - master
       - develop
+      - arm64
+  workflow_dispatch:
 
 jobs:
   build:

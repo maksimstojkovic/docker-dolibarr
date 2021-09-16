@@ -1,3 +1,7 @@
+This repo provides `linux/amd64`, `linux/arm64`, `linux/arm/v7` and `linux/386` multi-platform builds of [https://github.com/Monogramm/docker-dolibarr](https://github.com/Monogramm/docker-dolibarr).
+
+Image are available using the image: [`maksimstojkovic/dolibarr`](https://hub.docker.com/r/maksimstojkovic/dolibarr)
+
 [![License: AGPL v3][uri_license_image]][uri_license]
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/2da2a49afafc46b19275d1f8eb849f8e)](https://www.codacy.com/gh/Monogramm/docker-dolibarr?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Monogramm/docker-dolibarr&amp;utm_campaign=Badge_Grade)
 [![Build Status](https://travis-ci.org/Monogramm/docker-dolibarr.svg)](https://travis-ci.org/Monogramm/docker-dolibarr)

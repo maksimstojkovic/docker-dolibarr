@@ -13,7 +13,7 @@ before_install:
   - export TAG=${VERSION}-php${PHP_VERSION}-${VARIANT}
   - export VCS_REF=`git rev-parse --short HEAD`
   - export BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"`
-  - export IMAGE_NAME=monogramm/docker-dolibarr:${TAG}
+  - export IMAGE_NAME=maksimstojkovic/dolibarr:${TAG}
 
 install:
   - echo "Changing to travis test directory ($travis_dir)"
